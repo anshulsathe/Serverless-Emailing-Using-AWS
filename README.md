@@ -16,3 +16,5 @@ This concludes one part of our project, we have succesfully given our lambda fun
 ```bash
 import json
 import boto3
+def lambda_handler(event, context):
+    sesClient = boto3.client("ses", region_name="your-region")
