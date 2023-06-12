@@ -1,1 +1,1 @@
-# serverless-emailing
+# Serverless Emailing using AWS
