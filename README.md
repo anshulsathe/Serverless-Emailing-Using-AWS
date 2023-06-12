@@ -40,3 +40,4 @@ def lambda_handler(event, context):
         )
 ```
 After deploying this code, we can click on test. An test email will be sent on the selected destination mail ids. Thank you for reading.
+![App Page](https://github.com/anshulsathe/Serverless-Emailing-Using-AWS/blob/main/Screenshot%20(129).png)
