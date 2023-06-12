@@ -39,3 +39,4 @@ def lambda_handler(event, context):
         Source="sender@mail.com"
         )
 ```
+After deploying this code, we can click on test. An test email will be sent on the selected destination mail ids. Thank you for reading.
