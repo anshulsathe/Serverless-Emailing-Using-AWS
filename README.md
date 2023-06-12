@@ -7,3 +7,5 @@ this project can be used to send emails to senders using AWS. This is better tha
 - Now we will have to create a new permission for our lambda function to access SES. To do this go to configuration tab in the lambda function and go to premissions. We can see that a default role is created for the function called "ses-email-role-u412n10d". Click on this role and we will be redirected to a new IAM Console page.
 ![App Page](https://github.com/anshulsathe/Serverless-Emailing-Using-AWS/blob/main/Screenshot%20(128).png)
 - In the IAM Console, we can see that we have a permission policy given. We have to create a new inline policy under the add permissions tab. 
+- In the visual editor for the inline policy tab, we have to select all write premissions under the write tab in the SES Service. Now select "All Resource" under the resource tab. Now we can click on review policy and create permission.
+- 
