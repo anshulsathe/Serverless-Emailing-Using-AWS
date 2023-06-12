@@ -4,4 +4,5 @@ this project can be used to send emails to senders using AWS. This is better tha
 
 ## Steps of implementation
 - First create a Lambda function and select Python 3.8 in the Runtime menu. 
+- Now we will have to create a new permission for our lambda function to access SES. To do this go to configuration tab in the lambda function and go to premissions. We can see that a default role is created for the function called "ses-email-role-u412n10d". Click on this role and we will be redirected to a new IAM Console page.
 - 
