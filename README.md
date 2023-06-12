@@ -13,4 +13,6 @@ This concludes one part of our project, we have succesfully given our lambda fun
 
 - In SES, click on the create identity option. Here select "email address" and write your email address. An email will be sent to this address in order to confirm and verify your identity.
 - After this is done, write the following code in your "ses-emailing" lambda function:
-
+```bash
+import json
+import boto3
