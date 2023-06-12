@@ -12,4 +12,5 @@ this project can be used to send emails to senders using AWS. This is better tha
 This concludes one part of our project, we have succesfully given our lambda function "ses-email" permissions to write emails by accessing SES. Now we will be configuring SES.
 
 - In SES, click on the create identity option. Here select "email address" and write your email address. An email will be sent to this address in order to confirm and verify your identity.
-- 
+- After this is done, write the following code in your "ses-emailing" lambda function:
+
